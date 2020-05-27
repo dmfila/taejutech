@@ -520,7 +520,7 @@
   <!-- Footer End -->
 
   <!-- Float Button -->
-  <a href="#" class="back-to-top"><i class="fas fa-arrow-to-top"></i></a>
+  <a href="#" class="back-to-top"><i class="fa fa-arrow-up"></i></a>
 
   <!-- Start Modal -->
   <div class="modal fade" id="getstarted">
