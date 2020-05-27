@@ -1,0 +1,58 @@
+
+@media (min-width: 1200px){
+	.backgroundheaderimage {
+    position: absolute;
+    bottom: 23px;
+    left: 112px;
+    width: 1026px;
+    height: auto;
+  
+    top: -5px;
+}
+
+.blueheader
+{
+	margin-right: 20px;margin-left: -23px;
+}
+
+.footerpadding
+{
+	padding-top: 10px;
+}
+
+.navbar-brand-custom-float
+{
+	float:right;
+}
+
+}
+
+
+@media (max-width: 700px){
+	.backgroundheaderimage {
+	display:none;
+}
+
+.callthebrainyappteam
+{
+	display:none;
+}
+
+.blueheader
+{
+	margin-right: 0px;margin-left: -23px;
+}
+
+.footerpadding
+{
+	padding-top: 0px;
+}
+
+.navbar-brand-custom-float
+{
+	float:left;
+	padding-top:40px;
+}
+
+}
+
