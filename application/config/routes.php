@@ -53,3 +53,9 @@ $route['default_controller'] = 'home';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = false;
 // $route['restApi/(:any)'] = "restApi/getinfo/$1";
+
+$route['^en/(.+)$'] = "$1";
+$route['^ch/(.+)$'] = "$1";
+
+$route['^en$'] = $route['default_controller'];
+$route['^ch$'] = $route['default_controller'];

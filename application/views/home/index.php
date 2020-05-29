@@ -47,11 +47,11 @@
               <div class="collapse navbar-collapse" id="myNavbar">
                 <div class="navigation">
                   <ul class="nav navbar-nav">
-                    <li><a href="#app-develop-service">App Development Services</a></li>
-                    <li><a href="#customer-review">Customer Reviews</a></li>
-                    <li><a href="#contact-message">Contact</a></li>
+                    <li><a href="#app-develop-service"><?php echo lang('nav_service') ?></a></li>
+                    <li><a href="#customer-review"><?php echo lang('nav_review') ?></a></li>
+                    <li><a href="#contact-message"><?php echo lang('nav_contact') ?></a></li>
                     <!-- <li><a href="#">Blog</a></li> -->
-                    <li><a href="#" onclick="get_start()">Get Started</a></li>
+                    <li><a href="#" onclick="get_start()"><?php echo lang('get_started') ?></a></li>
                   </ul>
                 </div>
               </div>
@@ -71,7 +71,7 @@
         <div class="item">
           <div class="col-md-6 col-xs-12 owl-slider-content">
             <div class="banner-desc animate-slide-item">
-              <h1>You've got a brilliant idea to build the software product but don't know how to do?</h1>
+              <h1><?php echo lang('band_title_1') ?></h1>
             </div>
           </div>
           <div class="col-md-6 col-xs-12">
@@ -83,7 +83,7 @@
         <div class="item">
           <div class="col-md-6 col-xs-12 owl-slider-content">
             <div class="banner-desc animate-slide-item">
-              <h1>We will help you to come on board and to reach the goal.</h1>
+              <h1><?php echo lang('band_title_2') ?></h1>
             </div>
           </div>
           <div class="col-md-6 col-xs-12">
@@ -94,7 +94,7 @@
         </div>
       </div>
       <div class="btn-grp">
-        <a class="btn btn-success" onclick="get_start()">Get Started</a>
+        <a class="btn btn-success" onclick="get_start()"><?php echo lang('get_started') ?></a>
       </div>
       <!-- </div> -->
   </section>
@@ -106,30 +106,22 @@
           <div class="col-sm-4 col-xs-12">
             <div class="banner-btm-block-inner">
               <img src="assets/images/service-icon1.png">
-              <h2>Web Application Development</h2>
-              <p>We offer end-to-end web development solutions by strategically combining latest web technologies with
-                mature project development methodologies & robust project management tools.
-              </p>
+              <h2><?php echo lang('band_service_name_1') ?></h2>
+              <p><?php echo lang('band_service_desc_1') ?></p>
             </div>
           </div>
           <div class="col-sm-4 col-xs-12">
             <div class="banner-btm-block-inner">
               <img src="assets/images/service-icon2.png">
-              <h2>Mobile Application Development</h2>
-              <p>With in-depth knowledge of native iOS, Android and cross-platform application development, we make sure
-                that your idea is transformed into a beautifully designed, user-friendly and engaging mobile solution of
-                a
-                superior quality.
-              </p>
+              <h2><?php echo lang('band_service_name_2') ?></h2>
+              <p><?php echo lang('band_service_desc_2') ?></p>
             </div>
           </div>
           <div class="col-sm-4 col-xs-12">
             <div class="banner-btm-block-inner">
               <img src="assets/images/service-icon3.png">
-              <h2>Video Application Development</h2>
-              <p>Building your app is fun, but getting it noticed is great! Our team provides continued support and
-                guidance your app is launched, to keep you in the right direction. Let us help your app climb the ladder
-                to success.</p>
+              <h2><?php echo lang('band_service_name_3') ?></h2>
+              <p><?php echo lang('band_service_desc_3') ?></p>
             </div>
           </div>
         </div>
@@ -137,32 +129,22 @@
           <div class="col-sm-4 col-xs-12">
             <div class="banner-btm-block-inner">
               <img src="assets/images/service-icon2.png">
-              <h2>Desktop Application</h2>
-              <p>It's not just about cutting edge technology at TaejuTech. Sure, we're pretty geeky, but we are also a
-                team of artists and design nuts. We have perfected the art of listening and understanding your ideas and
-                visions.</p>
+              <h2><?php echo lang('band_service_name_4') ?></h2>
+              <p><?php echo lang('band_service_desc_4') ?></p>
             </div>
           </div>
           <div class="col-sm-4 col-xs-12">
             <div class="banner-btm-block-inner">
               <img src="assets/images/service-icon1.png">
-              <h2>IoT Development</h2>
-              <p>We strive to excel in the invention and development of the Internet of things (IoT) applications,
-                Wearables, AR/VR, cloud integration. We translate these technologies into value for our clients’
-                customers
-                giving them professional and best-in-class services; thereby helping businesses throughout the world
-                harness their full potential.
-              </p>
+              <h2><?php echo lang('band_service_name_5') ?></h2>
+              <p><?php echo lang('band_service_desc_5') ?></p>
             </div>
           </div>
           <div class="col-sm-4 col-xs-12">
             <div class="banner-btm-block-inner">
               <img src="assets/images/service-icon2.png">
-              <h2>Embedded System Development</h2>
-              <p>Overall electric and electronic design.
-                Develop industrial control equipment and smart home.
-                Build high-performance large-scale embedded systems through optimal development process and high-quality
-                software.</p>
+              <h2><?php echo lang('band_service_name_6') ?></h2>
+              <p><?php echo lang('band_service_desc_6') ?></p>
             </div>
           </div>
         </div>
@@ -180,21 +162,20 @@
           </div>
           <div class="col-sm-6 col-xs-12">
             <div class="build-schedule-right">
-              <h1>We are different</h1>
-              <p>Unlike others, we take care of overall process, from design to marketing, not only development phase.
-              </p>
+              <h1><?php echo lang('schedule_title') ?></h1>
+              <p><?php echo lang('schedule_desc') ?></p>
               <ul>
                 <li>
-                  <span>Cost-effective and strategic solution.</span>
+                  <span><?php echo lang('schedule_task_1') ?></span>
                 </li>
                 <li>
-                  <span>Architectural design and project schedule.</span>
+                  <span><?php echo lang('schedule_task_2') ?></span>
                 </li>
                 <li>
-                  <span>Build the app by dedicated team of experts.</span>
+                  <span><?php echo lang('schedule_task_3') ?></span>
                 </li>
                 <li>
-                  <span>Help and support for success in market. </span>
+                  <span><?php echo lang('schedule_task_4') ?></span>
                 </li>
               </ul>
             </div>
@@ -253,26 +234,16 @@
         <div class="row">
           <div class="col-sm-6 col-xs-12">
             <div class="productivity-right">
-              <h1>World-Class Productivity</h1>
-              <p>Use an Agile development methodology, which means we work in sprints to create incremental, iterative
-                mobile, software, and web applications that are tested, tempered, and ready for release. Being Agile
-                means
-                we’re as flexible as project management needs to be — keeping your project on-budget and on-schedule.
-              </p>
+              <h1><?php echo lang('productivity_title') ?></h1>
+              <p><?php echo lang('productivity_desc') ?></p>
               <ul>
                 <li>
-                  <h3>Your Succes is Our Success</h3>
-                  <span>Our company utilized an Integrated Quality Assurance practice to ensure the highest quality of
-                    our
-                    deliverables. We have perfected QA strategy and methodology that blend seamlessly into the
-                    development
-                    lifecycle without crossing the important boundary between the development and software quality
-                    assurance processes.</span>
+                  <h3><?php echo lang('productivity_task_title_1') ?></h3>
+                  <span><?php echo lang('productivity_task_desc_1') ?></span>
                 </li>
                 <li>
-                  <h3>Efficient Project Management</h3>
-                  <span>We apply modern techniques and powerful software to monitor scope, schedule, quality, and cost —
-                    so you remain confident of on-time and on-budget delivery.</span>
+                  <h3><?php echo lang('productivity_task_title_2') ?></h3>
+                  <span><?php echo lang('productivity_task_desc_2') ?></span>
                 </li>
               </ul>
             </div>
@@ -290,46 +261,37 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-xs-12">
-            <h1>Easy Step By Prosses</h1>
-            <h6>Create your own app idea with our TaejuTech Team. Someone else make money from<br> your app idea. Start
-              now!
-            </h6>
+            <h1><?php echo lang('step_title') ?></h1>
+            <h6><?php echo lang('step_desc') ?></h6>
           </div>
         </div>
         <div class="row">
           <div class="col-sm-3 col-xs-12">
             <div class="easy-step-each">
               <img src="assets/images/step1.png">
-              <h4>Consulting</h4>
-              <p>Our professional consultants engage with you and provide best of best solution as well as accurate and
-                detailed plan.</p>
+              <h4><?php echo lang('step_task_title_1') ?></h4>
+              <p><?php echo lang('step_task_desc_1') ?></p>
             </div>
           </div>
           <div class="col-sm-3 col-xs-12">
             <div class="easy-step-each">
               <img src="assets/images/step2.png">
-              <h4>Designing</h4>
-              <p>Do you have an idea for an app, but only in your head? Our highly trained design team knows how to
-                bring
-                it to life.</p>
+              <h4><?php echo lang('step_task_title_2') ?></h4>
+              <p><?php echo lang('step_task_desc_2') ?></p>
             </div>
           </div>
           <div class="col-sm-3 col-xs-12">
             <div class="easy-step-each">
               <img src="assets/images/step3.png">
-              <h4>Programming</h4>
-              <p>We select the most appropriate developers based on the skills required for your project and according
-                to
-                developer's specified experience.
-                We don't involve any meditators so you can talk to the developers directly.</p>
+              <h4><?php echo lang('step_task_title_3') ?></h4>
+              <p><?php echo lang('step_task_desc_3') ?></p>
             </div>
           </div>
           <div class="col-sm-3 col-xs-12">
             <div class="easy-step-each">
               <img src="assets/images/step4.png">
-              <h4>Marketing</h4>
-              <p>We care your success.
-                Thus we provide dedicated maintenance and marketing service.</p>
+              <h4><?php echo lang('step_task_title_4') ?></h4>
+              <p><?php echo lang('step_task_desc_4') ?></p>
             </div>
           </div>
         </div>
@@ -340,9 +302,8 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-xs-12">
-            <h1>Our Testimonials</h1>
-            <h6>Create your own app idea with our TaejuTech Team. Someone else make money from<br> your app idea. Start
-              now!
+            <h1><?php echo lang('testimonial_title') ?></h1>
+            <h6><?php echo lang('testimonial_desc') ?>
             </h6>
           </div>
         </div>
@@ -357,20 +318,9 @@
                         <span class="scores s10"></span>
                         <span>(5)</span>
                       </div>
-                      <div class="testi-text">
-                        "I am very pleased with TaejuTech. They have been professional, timely, and extremely reliable
-                        with the building and integration of my App. They took my designs, ideas and dreams and turned
-                        them into a reality. TaejuTech team is highly dependable and experienced in their field.
-                        Building
-                        apps and things if this nature can be very frustrating and nerve wracking, but TaejuTech took a
-                        lot of that stress and anxiety away with their professionalism and timely delivery."
-                      </div>
-                      <div class="testi-user">
-                        Stephen Baldry
-                      </div>
-                      <div class="testi-designation">
-                        CTO at PC Locs
-                      </div>
+                      <div class="testi-text"><?php echo lang('feedback_task_content_1') ?></div>
+                      <div class="testi-user"><?php echo lang('feedback_task_name_1') ?></div>
+                      <div class="testi-designation"><?php echo lang('feedback_task_position_1') ?></div>
                     </div>
                     <div class="testi-img">
                       <img src="assets/images/testimonials0.jpg">
@@ -384,20 +334,9 @@
                         <span class="scores s10"></span>
                         <span>(5)</span>
                       </div>
-                      <div class="testi-text">
-                        "Our organization hired this team a few years back for a web development project and after it
-                        was
-                        completed TaejuTech team stayed with us to provide maintenance service.
-                        Working with TaejuTech has been everything we could wish for! The team is reliable, experienced
-                        and professional.
-                        Keep up the good work!"
-                      </div>
-                      <div class="testi-user">
-                        Rudy Ferraz
-                      </div>
-                      <div class="testi-designation">
-                        CEO of One Car Payment
-                      </div>
+                      <div class="testi-text"><?php echo lang('feedback_task_content_2') ?></div>
+                      <div class="testi-user"><?php echo lang('feedback_task_name_2') ?></div>
+                      <div class="testi-designation"><?php echo lang('feedback_task_position_2') ?></div>
                     </div>
                     <div class="testi-img">
                       <img src="assets/images/testimonials1.jpg">
@@ -411,20 +350,9 @@
                         <span class="scores s10"></span>
                         <span>(5)</span>
                       </div>
-                      <div class="testi-text">
-                        "I would highly recommend the team as they never fail reaching my expectation in terms of
-                        product
-                        delivery, meeting my business requirements both in technical and support. They are fast,
-                        accurate,
-                        very detailed and very professional supporting their clients end to end.
-                        Will definetely engage them again in any of my future tech projects."
-                      </div>
-                      <div class="testi-user">
-                        Jason Lilienstein
-                      </div>
-                      <div class="testi-designation">
-                        CEO of Zuuse
-                      </div>
+                      <div class="testi-text"><?php echo lang('feedback_task_content_3') ?></div>
+                      <div class="testi-user"><?php echo lang('feedback_task_name_3') ?></div>
+                      <div class="testi-designation"><?php echo lang('feedback_task_position_3') ?></div>
                     </div>
                     <div class="testi-img">
                       <img src="assets/images/testimonials2.jpg">
@@ -442,33 +370,30 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-xs-12">
-            <h1>Please contact with us</h1>
-            <h6>Create your own app idea with our TaejuTech Team. Someone else make money from<br> your app idea. Start
-              now!
-            </h6>
+            <h1><?php echo lang('contact_title') ?></h1>
+            <h6><?php echo lang('contact_desc') ?></h6>
           </div>
         </div>
         <div class="row">
           <div class="col-sm-6 col-sm-offset-3 col-xs-12">
             <div class="contact-form">
-              <h3>Request Form</h3>
               <form action=<?php echo base_url() . "mail/contact_mail" ?> method=post>
                 <div class="form-group">
-                  <input type="name" name="name" placeholder="Enter your name *" required="" class="form-control">
+                  <input type="name" name="name" placeholder="<?php echo lang('contact_name') ?> *" required="" class="form-control">
                 </div>
                 <div class="form-group">
-                  <input type="email" name="email" placeholder="Enter your email *" required="" class="form-control">
+                  <input type="email" name="email" placeholder="<?php echo lang('contact_email') ?> *" required="" class="form-control">
                 </div>
                 <div class="form-group">
-                  <input type="tel" name="phone" placeholder="Enter your phone number *" required=""
+                  <input type="tel" name="phone" placeholder="<?php echo lang('contact_phone') ?> *" required=""
                     class="form-control">
                 </div>
                 <div class="form-group">
-                  <textarea name="message" rows="3" placeholder="Enter your message" class="form-control"
+                  <textarea name="message" rows="3" placeholder="<?php echo lang('contact_message') ?>" class="form-control"
                     style="resize: none"></textarea>
                 </div>
                 <div class="form-group">
-                  <button type="submit" class="btn btn-primary">Send Message</button>
+                  <button type="submit" class="btn btn-primary"><?php echo lang('contact_send') ?></button>
                 </div>
               </form>
             </div>
@@ -527,30 +452,30 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h4 class="getstartedheading getstartedheadingm font_bold">GET STARTED FOR FREE!</h4>
-          <h5 class="getstartedAllheadings getstartedAllheadingsm">Full Confidentiality & NDA</h5>
-          <h5 class="getstartedAllheadings getstartedAllheadingsm">No Obligations</h5>
-          <h5 class="getstartedAllheadings getstartedAllheadingsm">100% Free App Review<br></h5>
-          <h4 class="font_bold" class="getstartedAllheadings getstartedAllheadingsm">Tell us about your app idea:</h4>
+          <h4 class="getstartedheading getstartedheadingm font_bold"><?php echo lang('start_form_title_1') ?></h4>
+          <h5 class="getstartedAllheadings getstartedAllheadingsm"><?php echo lang('start_form_title_2') ?></h5>
+          <h5 class="getstartedAllheadings getstartedAllheadingsm"><?php echo lang('start_form_title_3') ?></h5>
+          <h5 class="getstartedAllheadings getstartedAllheadingsm"><?php echo lang('start_form_title_4') ?><br></h5>
+          <h4 class="font_bold" class="getstartedAllheadings getstartedAllheadingsm"><?php echo lang('start_form_title_5') ?></h4>
         </div>
         <div class="modal-body">
           <?php echo form_open('', $attribute = array('class' => 'form-valid', 'id' => 'form-start')); ?>
           <div class="form-group">
-            <input type="text" name="fname" id="form-start-fname" class="form-control" placeholder="First Name*"
+            <input type="text" name="fname" id="form-start-fname" class="form-control" placeholder="<?php echo lang('start_firstname') ?>*"
               required=""></input>
           </div>
           <div class="form-group">
-            <input type="text" name="lname" id="form-start-lname" class="form-control" placeholder="Last Name"></input>
+            <input type="text" name="lname" id="form-start-lname" class="form-control" placeholder="<?php echo lang('start_lastname') ?>"></input>
           </div>
           <div class="form-group">
-            <input type="email" name="email" id="form-start-email" class="form-control" placeholder="Email*"
+            <input type="email" name="email" id="form-start-email" class="form-control" placeholder="<?php echo lang('start_email') ?>*"
               required=""></input>
           </div>
           <div class="form-group">
-            <input type="tel" name="phone" id="form-start-phone" class="form-control" placeholder="Phone"></input>
+            <input type="tel" name="phone" id="form-start-phone" class="form-control" placeholder="<?php echo lang('start_phone') ?>"></input>
           </div>
           <div class="modal-footer">
-            <button class="btn btn-primary" id="startnow">Start Now</button>
+            <button class="btn btn-primary" id="startnow"><?php echo lang('start_now') ?></button>
           </div>
           <?php form_close()?>
         </div>
